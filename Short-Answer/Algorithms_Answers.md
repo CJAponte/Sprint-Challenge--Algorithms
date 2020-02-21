@@ -12,4 +12,4 @@ c) As n increases the length of time needed increases as well. o(n) time complex
 
 ## Exercise II
 
-We can use a bindary search and start at the half way point of n (floors). If the egg breaks from this point, we can divide n by 2 and test again until the egg does not break. We can temporary consider the point where the egg did not break as the new ground floor and the last point were the egg did break as the highest floor. We repeat until we find the height floor our egg can sustain a fall from.
+We can use a bindary search o(log n) and start at the half way point of n (floors). If the egg breaks from this point, we can divide n by 2 and test again until the egg does not break. We can temporary consider the point where the egg did not break as the new ground floor and the last point were the egg did break as the highest floor. We repeat until we find the height floor our egg can sustain a fall from.
